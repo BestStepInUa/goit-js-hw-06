@@ -1,0 +1,11 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  list-style-type: none;
+}
+
+.gallery-img {
+  width: 400px;
+}
