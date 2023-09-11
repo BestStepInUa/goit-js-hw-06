@@ -19,7 +19,8 @@ const ingredients = [
 // const ingredientsListItemRef = document.createElement('li');
 // ingredientsListItemRef.classList.add('item');
 
-const ingredientsList = document.getElementById(ingredients);
+const ingredientsList = document.getElementById('ingredients');
+// console.log(ingredientsList);
 
 const ingredientsListItems = ingredients.map(ingredient => {
   const ingredientItemRef = document.createElement('li');
