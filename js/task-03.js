@@ -10,7 +10,7 @@
 // Усі елементи галереї повинні додаватися в DOM за одну операцію додавання.
 // Додай мінімальне оформлення галереї флексбоксами або грідами через CSS класи.
 
-{/* <ul class="gallery">
+/* <ul class="gallery">
       <li class="gallery-item">
         <img
           class="gallery-img"
@@ -32,7 +32,7 @@
           alt="Group of Horses Running"
         />
       </li>
-</ul> */}
+</ul> */
     
 const images = [
  {

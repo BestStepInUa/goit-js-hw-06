@@ -1,12 +1,3 @@
-const ingredients = [
-  'Potatoes',
-  'Mushrooms',
-  'Garlic',
-  'Tomatos',
-  'Herbs',
-  'Condiments',
-];
-
 // TASK № 2
 
 // Напиши скрипт, який для кожного елемента масиву ingredients:
@@ -15,9 +6,15 @@ const ingredients = [
 // Додасть назву інгредієнта як його текстовий вміст.
 // Додасть елементу клас item.
 // Після чого, вставить усі <li> за одну операцію у список ul#ingredients.
-// const ingredientsList = document.getElementById(ingredients);
-// const ingredientsListItemRef = document.createElement('li');
-// ingredientsListItemRef.classList.add('item');
+
+const ingredients = [
+  'Potatoes',
+  'Mushrooms',
+  'Garlic',
+  'Tomatos',
+  'Herbs',
+  'Condiments',
+];
 
 const ingredientsList = document.getElementById('ingredients');
 // console.log(ingredientsList);

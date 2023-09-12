@@ -12,7 +12,7 @@ const refs = {
 }
 // console.log(refs.categories);
 // console.log(refs.categories.children);
-console.log(`Number of categories: ${categories.children.length}`);
+console.log(`Number of categories: ${refs.categories.children.length}`);
 
 // console.log(refs.categoriesItems);
 refs.categoriesItems.forEach(elm => {
