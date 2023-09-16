@@ -33,7 +33,7 @@ inputRef.addEventListener('blur', onInputBlur);
 inputRef.addEventListener('focus', onInputFocus);
 
 function onInputBlur() {
-  const inputValueLength = inputRef.value.length;
+  const inputValueLength = inputRef.value.trim().length;
   // console.log(typeof inputDataLength);
   // console.log(inputDataLength);
   // console.log(typeof inputValueLength);

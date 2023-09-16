@@ -13,5 +13,5 @@ const refs = {
 refs.input.addEventListener('input', onInputChange)
 
 function onInputChange(event) {
-    refs.spanOutput.textContent = event.currentTarget.value;
+    refs.spanOutput.textContent = event.currentTarget.value.trim();
 }
