@@ -72,4 +72,5 @@ function onChangeColorBtnClick() {
   console.log(`TRANSFORM => Boby background color in HEX: #${bgInHEX}`);
   console.log(`Body background color = color in span (text) via RGB format ??? `, bodyRef.style.backgroundColor === `rgb(${spanInRGBArr[0]}, ${spanInRGBArr[1]}, ${spanInRGBArr[2]})`);
   console.log(`Body background color = color in span (text) via HEX format ??? `, bgColorNameSpanRef.textContent === `#${bgInHEX}`);
+  console.log('-|-|-|-|-|-|-|-|-|-|-|-|-');
 };
